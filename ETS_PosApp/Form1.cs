@@ -172,7 +172,7 @@ namespace ETS_PosApp
 
         private void button24_Click(object sender, EventArgs e)
         {
-            Double CostifItem = 20000;
+            Double CostifItem = 12000;
             foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
             {
                 if ((bool)(row.Cells[0].Value = "button24"))
@@ -181,13 +181,13 @@ namespace ETS_PosApp
                     row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
                 }
             }
-            dataGridView1.Rows.Add("Cap Coffee", "1", CostifItem);
+            dataGridView1.Rows.Add("Bread and Ice Cream", "1", CostifItem);
             AddCost();
         }
 
         private void button23_Click(object sender, EventArgs e)
         {
-            Double CostifItem = 19000;
+            Double CostifItem = 25000;
             foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
             {
                 if ((bool)(row.Cells[0].Value = "button23"))
@@ -196,13 +196,13 @@ namespace ETS_PosApp
                     row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
                 }
             }
-            dataGridView1.Rows.Add("Cappucino", "1", CostifItem);
+            dataGridView1.Rows.Add("Fried Chicken", "1", CostifItem);
             AddCost();
         }
 
         private void button22_Click(object sender, EventArgs e)
         {
-            Double CostifItem = 22000;
+            Double CostifItem = 25000;
             foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
             {
                 if ((bool)(row.Cells[0].Value = "button22"))
@@ -211,13 +211,13 @@ namespace ETS_PosApp
                     row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
                 }
             }
-            dataGridView1.Rows.Add("Black Coffee", "1", CostifItem);
+            dataGridView1.Rows.Add("Hamburger", "1", CostifItem);
             AddCost();
         }
 
         private void button36_Click(object sender, EventArgs e)
         {
-            Double CostifItem = 25000;
+            Double CostifItem = 15000;
             foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
             {
                 if ((bool)(row.Cells[0].Value = "button36"))
@@ -226,13 +226,13 @@ namespace ETS_PosApp
                     row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
                 }
             }
-            dataGridView1.Rows.Add("Moccachino", "1", CostifItem);
+            dataGridView1.Rows.Add("Lasagna", "1", CostifItem);
             AddCost();
         }
 
         private void button35_Click(object sender, EventArgs e)
         {
-            Double CostifItem = 10000;
+            Double CostifItem = 12000;
             foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
             {
                 if ((bool)(row.Cells[0].Value = "button35"))
@@ -241,13 +241,13 @@ namespace ETS_PosApp
                     row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
                 }
             }
-            dataGridView1.Rows.Add("Coffee Bean", "1", CostifItem);
+            dataGridView1.Rows.Add("Donuts", "1", CostifItem);
             AddCost();
         }
 
         private void button34_Click(object sender, EventArgs e)
         {
-            Double CostifItem = 15000;
+            Double CostifItem = 50000;
             foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
             {
                 if ((bool)(row.Cells[0].Value = "button34"))
@@ -256,13 +256,13 @@ namespace ETS_PosApp
                     row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
                 }
             }
-            dataGridView1.Rows.Add("Caramel Latte", "1", CostifItem);
+            dataGridView1.Rows.Add("Gnocci", "1", CostifItem);
             AddCost();
         }
 
         private void button21_Click(object sender, EventArgs e)
         {
-            Double CostifItem = 16000;
+            Double CostifItem = 50000;
             foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
             {
                 if ((bool)(row.Cells[0].Value = "button21"))
@@ -271,13 +271,13 @@ namespace ETS_PosApp
                     row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
                 }
             }
-            dataGridView1.Rows.Add("Jus Jeruk", "1", CostifItem);
+            dataGridView1.Rows.Add("Birthday Cake", "1", CostifItem);
             AddCost();
         }
 
         private void button20_Click(object sender, EventArgs e)
         {
-            Double CostifItem = 10000;
+            Double CostifItem = 12000;
             foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
             {
                 if ((bool)(row.Cells[0].Value = "button20"))
@@ -286,13 +286,13 @@ namespace ETS_PosApp
                     row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
                 }
             }
-            dataGridView1.Rows.Add("Jus Jambu", "1", CostifItem);
+            dataGridView1.Rows.Add("Snacks", "1", CostifItem);
             AddCost();
         }
 
         private void button19_Click(object sender, EventArgs e)
         {
-            Double CostifItem = 14000;
+            Double CostifItem = 12000;
             foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
             {
                 if ((bool)(row.Cells[0].Value = "button19"))
@@ -301,13 +301,13 @@ namespace ETS_PosApp
                     row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
                 }
             }
-            dataGridView1.Rows.Add("Es Coklat", "1", CostifItem);
+            dataGridView1.Rows.Add("Lemonade", "1", CostifItem);
             AddCost();
         }
 
         private void button33_Click(object sender, EventArgs e)
         {
-            Double CostifItem = 30000;
+            Double CostifItem = 50000;
             foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
             {
                 if ((bool)(row.Cells[0].Value = "button33"))
@@ -316,13 +316,13 @@ namespace ETS_PosApp
                     row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
                 }
             }
-            dataGridView1.Rows.Add("Jus Strawberry", "1", CostifItem);
+            dataGridView1.Rows.Add("Ratatouille", "1", CostifItem);
             AddCost();
         }
 
         private void button32_Click(object sender, EventArgs e)
         {
-            Double CostifItem = 15000;
+            Double CostifItem = 25000;
             foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
             {
                 if ((bool)(row.Cells[0].Value = "button32"))
@@ -331,13 +331,13 @@ namespace ETS_PosApp
                     row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
                 }
             }
-            dataGridView1.Rows.Add("Sirup", "1", CostifItem);
+            dataGridView1.Rows.Add("Lasagna", "1", CostifItem);
             AddCost();
         }
 
         private void button31_Click(object sender, EventArgs e)
         {
-            Double CostifItem = 15000;
+            Double CostifItem = 95000;
             foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
             {
                 if ((bool)(row.Cells[0].Value = "button31"))
@@ -346,13 +346,13 @@ namespace ETS_PosApp
                     row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
                 }
             }
-            dataGridView1.Rows.Add("Jus Leci", "1", CostifItem);
+            dataGridView1.Rows.Add("Rainbow Cake", "1", CostifItem);
             AddCost();
         }
 
         private void button18_Click(object sender, EventArgs e)
         {
-            Double CostifItem = 25000;
+            Double CostifItem = 12000;
             foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
             {
                 if ((bool)(row.Cells[0].Value = "button18"))
@@ -361,13 +361,13 @@ namespace ETS_PosApp
                     row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
                 }
             }
-            dataGridView1.Rows.Add("Roti Permen", "1", CostifItem);
+            dataGridView1.Rows.Add("Cheese Toast", "1", CostifItem);
             AddCost();
         }
 
         private void button17_Click(object sender, EventArgs e)
         {
-            Double CostifItem = 19000;
+            Double CostifItem = 15000;
             foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
             {
                 if ((bool)(row.Cells[0].Value = "button17"))
@@ -376,7 +376,7 @@ namespace ETS_PosApp
                     row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
                 }
             }
-            dataGridView1.Rows.Add("Roti Karamel", "1", CostifItem);
+            dataGridView1.Rows.Add("Strawberry Juice", "1", CostifItem);
             AddCost();
         }
 
@@ -391,13 +391,13 @@ namespace ETS_PosApp
                     row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
                 }
             }
-            dataGridView1.Rows.Add("Kue Gelay", "1", CostifItem);
+            dataGridView1.Rows.Add("Orange Juice", "1", CostifItem);
             AddCost();
         }
 
         private void button30_Click(object sender, EventArgs e)
         {
-            Double CostifItem = 25000;
+            Double CostifItem = 32000;
             foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
             {
                 if ((bool)(row.Cells[0].Value = "button30"))
@@ -406,13 +406,13 @@ namespace ETS_PosApp
                     row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
                 }
             }
-            dataGridView1.Rows.Add("Waffle Strawberry", "1", CostifItem);
+            dataGridView1.Rows.Add("Pasta", "1", CostifItem);
             AddCost();
         }
 
         private void button29_Click(object sender, EventArgs e)
         {
-            Double CostifItem = 35000;
+            Double CostifItem = 25000;
             foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
             {
                 if ((bool)(row.Cells[0].Value = "button29"))
@@ -421,13 +421,13 @@ namespace ETS_PosApp
                     row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
                 }
             }
-            dataGridView1.Rows.Add("Kue Coklat", "1", CostifItem);
+            dataGridView1.Rows.Add("Mushroom Pie", "1", CostifItem);
             AddCost();
         }
 
         private void button28_Click(object sender, EventArgs e)
         {
-            Double CostifItem = 25000;
+            Double CostifItem = 50000;
             foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
             {
                 if ((bool)(row.Cells[0].Value = "button28"))
@@ -436,13 +436,13 @@ namespace ETS_PosApp
                     row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
                 }
             }
-            dataGridView1.Rows.Add("Roti Coklat", "1", CostifItem);
+            dataGridView1.Rows.Add("Pizza", "1", CostifItem);
             AddCost();
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
-            Double CostifItem = 22000;
+            Double CostifItem = 32000;
             foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
             {
                 if ((bool)(row.Cells[0].Value = "button15"))
@@ -451,13 +451,13 @@ namespace ETS_PosApp
                     row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
                 }
             }
-            dataGridView1.Rows.Add("Roti Krim", "1", CostifItem);
+            dataGridView1.Rows.Add("Soup", "1", CostifItem);
             AddCost();
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
-            Double CostifItem = 21000;
+            Double CostifItem = 25000;
             foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
             {
                 if ((bool)(row.Cells[0].Value = "button14"))
@@ -466,13 +466,13 @@ namespace ETS_PosApp
                     row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
                 }
             }
-            dataGridView1.Rows.Add("Roti Kukus", "1", CostifItem);
+            dataGridView1.Rows.Add("Salad", "1", CostifItem);
             AddCost();
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
-            Double CostifItem = 23000;
+            Double CostifItem = 15000;
             foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
             {
                 if ((bool)(row.Cells[0].Value = "button13"))
@@ -481,13 +481,13 @@ namespace ETS_PosApp
                     row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
                 }
             }
-            dataGridView1.Rows.Add("Roti Warna Warni", "1", CostifItem);
+            dataGridView1.Rows.Add("Tea", "1", CostifItem);
             AddCost();
         }
 
         private void button27_Click(object sender, EventArgs e)
         {
-            Double CostifItem = 29000;
+            Double CostifItem = 12000;
             foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
             {
                 if ((bool)(row.Cells[0].Value = "button27"))
@@ -496,13 +496,13 @@ namespace ETS_PosApp
                     row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
                 }
             }
-            dataGridView1.Rows.Add("Coklat Lava", "1", CostifItem);
+            dataGridView1.Rows.Add("Mocca Donuts", "1", CostifItem);
             AddCost();
         }
 
         private void button26_Click(object sender, EventArgs e)
         {
-            Double CostifItem = 27000;
+            Double CostifItem = 12000;
             foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
             {
                 if ((bool)(row.Cells[0].Value = "button26"))
@@ -511,13 +511,13 @@ namespace ETS_PosApp
                     row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
                 }
             }
-            dataGridView1.Rows.Add("Rooti Pelangi", "1", CostifItem);
+            dataGridView1.Rows.Add("Bread and Cream", "1", CostifItem);
             AddCost();
         }
 
         private void button25_Click(object sender, EventArgs e)
         {
-            Double CostifItem = 24000;
+            Double CostifItem = 12000;
             foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
             {
                 if ((bool)(row.Cells[0].Value = "button25"))
@@ -526,8 +526,13 @@ namespace ETS_PosApp
                     row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
                 }
             }
-            dataGridView1.Rows.Add("Kue Strawberry", "1", CostifItem);
+            dataGridView1.Rows.Add("Salty Snacks", "1", CostifItem);
             AddCost();
+        }
+
+        private void lblSubTotal_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

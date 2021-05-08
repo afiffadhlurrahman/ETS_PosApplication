@@ -18,3 +18,13 @@ D:\PBKK\ETS_PosApplication\ETS_PosApp\obj\Debug\ETS_PosApp.pdb
 D:\PBKK\ETS_PosApplication\ETS_PosApp\bin\Debug\ETS_PosApp.exe.config
 D:\PBKK\ETS_PosApplication\ETS_PosApp\bin\Debug\ETS_PosApp.exe
 D:\PBKK\ETS_PosApplication\ETS_PosApp\bin\Debug\ETS_PosApp.pdb
+C:\Users\ASUS\Source\Repos\afiffadhlurrahman\ETS_PosApplication\ETS_PosApp\bin\Debug\ETS_PosApp.exe.config
+C:\Users\ASUS\Source\Repos\afiffadhlurrahman\ETS_PosApplication\ETS_PosApp\bin\Debug\ETS_PosApp.exe
+C:\Users\ASUS\Source\Repos\afiffadhlurrahman\ETS_PosApplication\ETS_PosApp\bin\Debug\ETS_PosApp.pdb
+C:\Users\ASUS\Source\Repos\afiffadhlurrahman\ETS_PosApplication\ETS_PosApp\obj\Debug\ETS_PosApp.csprojAssemblyReference.cache
+C:\Users\ASUS\Source\Repos\afiffadhlurrahman\ETS_PosApplication\ETS_PosApp\obj\Debug\ETS_PosApp.Form1.resources
+C:\Users\ASUS\Source\Repos\afiffadhlurrahman\ETS_PosApplication\ETS_PosApp\obj\Debug\ETS_PosApp.Properties.Resources.resources
+C:\Users\ASUS\Source\Repos\afiffadhlurrahman\ETS_PosApplication\ETS_PosApp\obj\Debug\ETS_PosApp.csproj.GenerateResource.cache
+C:\Users\ASUS\Source\Repos\afiffadhlurrahman\ETS_PosApplication\ETS_PosApp\obj\Debug\ETS_PosApp.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Source\Repos\afiffadhlurrahman\ETS_PosApplication\ETS_PosApp\obj\Debug\ETS_PosApp.exe
+C:\Users\ASUS\Source\Repos\afiffadhlurrahman\ETS_PosApplication\ETS_PosApp\obj\Debug\ETS_PosApp.pdb
