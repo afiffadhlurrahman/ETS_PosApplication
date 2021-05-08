@@ -1,0 +1,10 @@
+C:\Users\afiff\source\repos\ETS_PosApp\ETS_PosApp\bin\Debug\ETS_PosApp.exe.config
+C:\Users\afiff\source\repos\ETS_PosApp\ETS_PosApp\bin\Debug\ETS_PosApp.exe
+C:\Users\afiff\source\repos\ETS_PosApp\ETS_PosApp\bin\Debug\ETS_PosApp.pdb
+C:\Users\afiff\source\repos\ETS_PosApp\ETS_PosApp\obj\Debug\ETS_PosApp.csprojAssemblyReference.cache
+C:\Users\afiff\source\repos\ETS_PosApp\ETS_PosApp\obj\Debug\ETS_PosApp.Form1.resources
+C:\Users\afiff\source\repos\ETS_PosApp\ETS_PosApp\obj\Debug\ETS_PosApp.Properties.Resources.resources
+C:\Users\afiff\source\repos\ETS_PosApp\ETS_PosApp\obj\Debug\ETS_PosApp.csproj.GenerateResource.cache
+C:\Users\afiff\source\repos\ETS_PosApp\ETS_PosApp\obj\Debug\ETS_PosApp.csproj.CoreCompileInputs.cache
+C:\Users\afiff\source\repos\ETS_PosApp\ETS_PosApp\obj\Debug\ETS_PosApp.exe
+C:\Users\afiff\source\repos\ETS_PosApp\ETS_PosApp\obj\Debug\ETS_PosApp.pdb
