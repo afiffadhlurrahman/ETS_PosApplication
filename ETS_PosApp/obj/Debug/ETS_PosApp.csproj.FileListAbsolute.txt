@@ -8,3 +8,13 @@ C:\Users\afiff\source\repos\ETS_PosApp\ETS_PosApp\obj\Debug\ETS_PosApp.csproj.Ge
 C:\Users\afiff\source\repos\ETS_PosApp\ETS_PosApp\obj\Debug\ETS_PosApp.csproj.CoreCompileInputs.cache
 C:\Users\afiff\source\repos\ETS_PosApp\ETS_PosApp\obj\Debug\ETS_PosApp.exe
 C:\Users\afiff\source\repos\ETS_PosApp\ETS_PosApp\obj\Debug\ETS_PosApp.pdb
+D:\PBKK\ETS_PosApplication\ETS_PosApp\obj\Debug\ETS_PosApp.csprojAssemblyReference.cache
+D:\PBKK\ETS_PosApplication\ETS_PosApp\obj\Debug\ETS_PosApp.Form1.resources
+D:\PBKK\ETS_PosApplication\ETS_PosApp\obj\Debug\ETS_PosApp.Properties.Resources.resources
+D:\PBKK\ETS_PosApplication\ETS_PosApp\obj\Debug\ETS_PosApp.csproj.GenerateResource.cache
+D:\PBKK\ETS_PosApplication\ETS_PosApp\obj\Debug\ETS_PosApp.csproj.CoreCompileInputs.cache
+D:\PBKK\ETS_PosApplication\ETS_PosApp\obj\Debug\ETS_PosApp.exe
+D:\PBKK\ETS_PosApplication\ETS_PosApp\obj\Debug\ETS_PosApp.pdb
+D:\PBKK\ETS_PosApplication\ETS_PosApp\bin\Debug\ETS_PosApp.exe.config
+D:\PBKK\ETS_PosApplication\ETS_PosApp\bin\Debug\ETS_PosApp.exe
+D:\PBKK\ETS_PosApplication\ETS_PosApp\bin\Debug\ETS_PosApp.pdb

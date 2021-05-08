@@ -50,7 +50,7 @@ namespace ETS_PosApp
             {
                 g = ((CostOfItems() * tax) / 100) + CostOfItems();
                 c = Convert.ToInt32(lblCash.Text);
-                lblChange = String.Format("{0:c2}", c - g);
+                this.lblChange.Text = String.Format("{0:c2}", c - g);
             }
         }
 
@@ -168,6 +168,366 @@ namespace ETS_PosApp
                 lblChange.Text = "";
                 lblCash.Text = "0";
             }
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            Double CostifItem = 20000;
+            foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
+            {
+                if ((bool)(row.Cells[0].Value = "button24"))
+                {
+                    row.Cells[1].Value = Double.Parse((string)row.Cells[1].Value + 1);
+                    row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
+                }
+            }
+            dataGridView1.Rows.Add("Cap Coffee", "1", CostifItem);
+            AddCost();
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            Double CostifItem = 19000;
+            foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
+            {
+                if ((bool)(row.Cells[0].Value = "button23"))
+                {
+                    row.Cells[1].Value = Double.Parse((string)row.Cells[1].Value + 1);
+                    row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
+                }
+            }
+            dataGridView1.Rows.Add("Cappucino", "1", CostifItem);
+            AddCost();
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            Double CostifItem = 22000;
+            foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
+            {
+                if ((bool)(row.Cells[0].Value = "button22"))
+                {
+                    row.Cells[1].Value = Double.Parse((string)row.Cells[1].Value + 1);
+                    row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
+                }
+            }
+            dataGridView1.Rows.Add("Black Coffee", "1", CostifItem);
+            AddCost();
+        }
+
+        private void button36_Click(object sender, EventArgs e)
+        {
+            Double CostifItem = 25000;
+            foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
+            {
+                if ((bool)(row.Cells[0].Value = "button36"))
+                {
+                    row.Cells[1].Value = Double.Parse((string)row.Cells[1].Value + 1);
+                    row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
+                }
+            }
+            dataGridView1.Rows.Add("Moccachino", "1", CostifItem);
+            AddCost();
+        }
+
+        private void button35_Click(object sender, EventArgs e)
+        {
+            Double CostifItem = 10000;
+            foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
+            {
+                if ((bool)(row.Cells[0].Value = "button35"))
+                {
+                    row.Cells[1].Value = Double.Parse((string)row.Cells[1].Value + 1);
+                    row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
+                }
+            }
+            dataGridView1.Rows.Add("Coffee Bean", "1", CostifItem);
+            AddCost();
+        }
+
+        private void button34_Click(object sender, EventArgs e)
+        {
+            Double CostifItem = 15000;
+            foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
+            {
+                if ((bool)(row.Cells[0].Value = "button34"))
+                {
+                    row.Cells[1].Value = Double.Parse((string)row.Cells[1].Value + 1);
+                    row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
+                }
+            }
+            dataGridView1.Rows.Add("Caramel Latte", "1", CostifItem);
+            AddCost();
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            Double CostifItem = 16000;
+            foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
+            {
+                if ((bool)(row.Cells[0].Value = "button21"))
+                {
+                    row.Cells[1].Value = Double.Parse((string)row.Cells[1].Value + 1);
+                    row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
+                }
+            }
+            dataGridView1.Rows.Add("Jus Jeruk", "1", CostifItem);
+            AddCost();
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            Double CostifItem = 10000;
+            foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
+            {
+                if ((bool)(row.Cells[0].Value = "button20"))
+                {
+                    row.Cells[1].Value = Double.Parse((string)row.Cells[1].Value + 1);
+                    row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
+                }
+            }
+            dataGridView1.Rows.Add("Jus Jambu", "1", CostifItem);
+            AddCost();
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            Double CostifItem = 14000;
+            foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
+            {
+                if ((bool)(row.Cells[0].Value = "button19"))
+                {
+                    row.Cells[1].Value = Double.Parse((string)row.Cells[1].Value + 1);
+                    row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
+                }
+            }
+            dataGridView1.Rows.Add("Es Coklat", "1", CostifItem);
+            AddCost();
+        }
+
+        private void button33_Click(object sender, EventArgs e)
+        {
+            Double CostifItem = 30000;
+            foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
+            {
+                if ((bool)(row.Cells[0].Value = "button33"))
+                {
+                    row.Cells[1].Value = Double.Parse((string)row.Cells[1].Value + 1);
+                    row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
+                }
+            }
+            dataGridView1.Rows.Add("Jus Strawberry", "1", CostifItem);
+            AddCost();
+        }
+
+        private void button32_Click(object sender, EventArgs e)
+        {
+            Double CostifItem = 15000;
+            foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
+            {
+                if ((bool)(row.Cells[0].Value = "button32"))
+                {
+                    row.Cells[1].Value = Double.Parse((string)row.Cells[1].Value + 1);
+                    row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
+                }
+            }
+            dataGridView1.Rows.Add("Sirup", "1", CostifItem);
+            AddCost();
+        }
+
+        private void button31_Click(object sender, EventArgs e)
+        {
+            Double CostifItem = 15000;
+            foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
+            {
+                if ((bool)(row.Cells[0].Value = "button31"))
+                {
+                    row.Cells[1].Value = Double.Parse((string)row.Cells[1].Value + 1);
+                    row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
+                }
+            }
+            dataGridView1.Rows.Add("Jus Leci", "1", CostifItem);
+            AddCost();
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            Double CostifItem = 25000;
+            foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
+            {
+                if ((bool)(row.Cells[0].Value = "button18"))
+                {
+                    row.Cells[1].Value = Double.Parse((string)row.Cells[1].Value + 1);
+                    row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
+                }
+            }
+            dataGridView1.Rows.Add("Roti Permen", "1", CostifItem);
+            AddCost();
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            Double CostifItem = 19000;
+            foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
+            {
+                if ((bool)(row.Cells[0].Value = "button17"))
+                {
+                    row.Cells[1].Value = Double.Parse((string)row.Cells[1].Value + 1);
+                    row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
+                }
+            }
+            dataGridView1.Rows.Add("Roti Karamel", "1", CostifItem);
+            AddCost();
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            Double CostifItem = 25000;
+            foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
+            {
+                if ((bool)(row.Cells[0].Value = "button16"))
+                {
+                    row.Cells[1].Value = Double.Parse((string)row.Cells[1].Value + 1);
+                    row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
+                }
+            }
+            dataGridView1.Rows.Add("Kue Gelay", "1", CostifItem);
+            AddCost();
+        }
+
+        private void button30_Click(object sender, EventArgs e)
+        {
+            Double CostifItem = 25000;
+            foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
+            {
+                if ((bool)(row.Cells[0].Value = "button30"))
+                {
+                    row.Cells[1].Value = Double.Parse((string)row.Cells[1].Value + 1);
+                    row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
+                }
+            }
+            dataGridView1.Rows.Add("Waffle Strawberry", "1", CostifItem);
+            AddCost();
+        }
+
+        private void button29_Click(object sender, EventArgs e)
+        {
+            Double CostifItem = 35000;
+            foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
+            {
+                if ((bool)(row.Cells[0].Value = "button29"))
+                {
+                    row.Cells[1].Value = Double.Parse((string)row.Cells[1].Value + 1);
+                    row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
+                }
+            }
+            dataGridView1.Rows.Add("Kue Coklat", "1", CostifItem);
+            AddCost();
+        }
+
+        private void button28_Click(object sender, EventArgs e)
+        {
+            Double CostifItem = 25000;
+            foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
+            {
+                if ((bool)(row.Cells[0].Value = "button28"))
+                {
+                    row.Cells[1].Value = Double.Parse((string)row.Cells[1].Value + 1);
+                    row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
+                }
+            }
+            dataGridView1.Rows.Add("Roti Coklat", "1", CostifItem);
+            AddCost();
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            Double CostifItem = 22000;
+            foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
+            {
+                if ((bool)(row.Cells[0].Value = "button15"))
+                {
+                    row.Cells[1].Value = Double.Parse((string)row.Cells[1].Value + 1);
+                    row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
+                }
+            }
+            dataGridView1.Rows.Add("Roti Krim", "1", CostifItem);
+            AddCost();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            Double CostifItem = 21000;
+            foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
+            {
+                if ((bool)(row.Cells[0].Value = "button14"))
+                {
+                    row.Cells[1].Value = Double.Parse((string)row.Cells[1].Value + 1);
+                    row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
+                }
+            }
+            dataGridView1.Rows.Add("Roti Kukus", "1", CostifItem);
+            AddCost();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            Double CostifItem = 23000;
+            foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
+            {
+                if ((bool)(row.Cells[0].Value = "button13"))
+                {
+                    row.Cells[1].Value = Double.Parse((string)row.Cells[1].Value + 1);
+                    row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
+                }
+            }
+            dataGridView1.Rows.Add("Roti Warna Warni", "1", CostifItem);
+            AddCost();
+        }
+
+        private void button27_Click(object sender, EventArgs e)
+        {
+            Double CostifItem = 29000;
+            foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
+            {
+                if ((bool)(row.Cells[0].Value = "button27"))
+                {
+                    row.Cells[1].Value = Double.Parse((string)row.Cells[1].Value + 1);
+                    row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
+                }
+            }
+            dataGridView1.Rows.Add("Coklat Lava", "1", CostifItem);
+            AddCost();
+        }
+
+        private void button26_Click(object sender, EventArgs e)
+        {
+            Double CostifItem = 27000;
+            foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
+            {
+                if ((bool)(row.Cells[0].Value = "button26"))
+                {
+                    row.Cells[1].Value = Double.Parse((string)row.Cells[1].Value + 1);
+                    row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
+                }
+            }
+            dataGridView1.Rows.Add("Rooti Pelangi", "1", CostifItem);
+            AddCost();
+        }
+
+        private void button25_Click(object sender, EventArgs e)
+        {
+            Double CostifItem = 24000;
+            foreach (DataGridViewRow row in this.dataGridView1.SelectedRows)
+            {
+                if ((bool)(row.Cells[0].Value = "button25"))
+                {
+                    row.Cells[1].Value = Double.Parse((string)row.Cells[1].Value + 1);
+                    row.Cells[2].Value = Double.Parse((string)row.Cells[1].Value) * CostifItem;
+                }
+            }
+            dataGridView1.Rows.Add("Kue Strawberry", "1", CostifItem);
+            AddCost();
         }
     }
 }
