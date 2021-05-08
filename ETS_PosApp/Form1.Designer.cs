@@ -846,11 +846,13 @@
             // 
             this.lblBarcode.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lblBarcode.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblBarcode.Font = new System.Drawing.Font("C39HrP24DlTt", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBarcode.Location = new System.Drawing.Point(496, 524);
             this.lblBarcode.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBarcode.Name = "lblBarcode";
             this.lblBarcode.Size = new System.Drawing.Size(475, 76);
             this.lblBarcode.TabIndex = 4;
+            this.lblBarcode.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // printDocument1
             // 

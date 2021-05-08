@@ -55,6 +55,23 @@ namespace ETS_PosApp
         }
 
         Bitmap bitmap;
+        private void btnPrint_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                int height = dataGridView1.Height;
+                dataGridView1.Height = dataGridView1.RowCount * dataGridView1.RowTemplate.Height * 2;
+                bitmap = new Bitmap(dataGridView1.Width, dataGridView1.Height);
+                dataGridView1.DrawToBitmap(bitmap, new Rectangle(0, 0, dataGridView1.Width, dataGridView1.Height));
+                printPreviewDialog1.PrintPreviewControl.Zoom = 1;
+                printPreviewDialog1.ShowDialog();
+                dataGridView1.Height = height;
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
 
         private void button38_Click(object sender, EventArgs e)
         {
@@ -136,7 +153,7 @@ namespace ETS_PosApp
 
         private void btnC_Click(object sender, EventArgs e)
         {
-
+            lblCash.Text = "0";
         }
 
         private void btnPay_Click(object sender, EventArgs e)
